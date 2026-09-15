@@ -1,36 +1,40 @@
-# Hey, I'm Brandon Handeland
+# Brandon Handeland
 
-Staff Software Engineer working at the intersection of **platform engineering, cloud, and AI automation**. I build and operate the platforms, pipelines, and infrastructure that engineering teams depend on — and lately I spend most of my time getting LLMs to do real engineering work.
+Platform and DevOps engineer. I build and run the AWS and Kubernetes platforms
+engineering teams depend on, and lately the AI tooling that sits on top of
+them: automated code review, agent orchestration, MCP servers, and the internal
+platforms that let a whole org use Claude Code safely.
 
-## What I do
+Triple AWS certified: Solutions Architect Professional, DevOps Engineer
+Professional, Security Specialty. I also run
+[Unbuffered Technology Solutions](https://www.unbuffered.net), a consultancy
+doing greenfield AWS/EKS platforms and multi-account governance.
 
-Platform and DevOps engineering across a 200+ repository microservices estate on AWS — infrastructure, CI/CD, security, observability, and developer experience. I also build AI agent tooling: automated code review, error-triage systems, and multi-agent development workflows. Python, AWS, and making complex systems simpler.
+> Most of my day-to-day work lives on a private GitLab. What's here is mirrored
+> from [Nighthawk OSS](https://gitlab.com/nighthawk-oss), where issues and MRs go.
 
-## Tech & tools
+## Recent
 
-**Languages:** Python, Bash, TypeScript, SQL, HCL
-**Cloud:** AWS (primary), with exposure to GCP and Azure
-**Infrastructure:** Terraform, CloudFormation, Ansible, Packer
-**CI/CD:** GitLab CI, GitHub Actions, ArgoCD, Jenkins
-**Containers:** Docker, Kubernetes (EKS), ECS, Fargate
-**Observability:** Datadog, Prometheus, Grafana, CloudWatch
-**AI:** Claude / Anthropic API, Amazon Bedrock, MCP, agent orchestration
-**Other:** Linux, PostgreSQL, Redis, API design
+- **[remem](https://github.com/bhandeland/remem)** — knowledge and memory store for AI coding agents. Ranked search plus a context block injected at session start; ships a Claude Code MCP server and hooks.
+- **[fleet](https://github.com/bhandeland/fleet)** — git worktree manager for parallel Claude Code sessions, with cmux.dev workspace integration.
+- **[kubesealpy](https://github.com/bhandeland/kubesealpy)** / **[kubesealpl](https://github.com/bhandeland/kubesealpl)** — native Bitnami Sealed Secrets encryption without the `kubeseal` binary. RSA-OAEP + AES-256-GCM, all three sealing scopes.
+- **[nighthawk-blame](https://github.com/bhandeland/nighthawk-blame)** — inline git blame for VS Code and Cursor. [Marketplace](https://marketplace.visualstudio.com/items?itemName=nighthawk-oss.nighthawk-blame)
+- **[nighthawk-cherrypick](https://github.com/bhandeland/nighthawk-cherrypick)** — interactive cherry-pick UI for VS Code with commit search and squash.
+
+## Tools I reach for
+
+**Cloud:** AWS (EKS, Organizations/SCPs, Aurora, DocumentDB, PrivateLink, WAFv2, Bedrock, GovCloud), GCP, Azure
+**Kubernetes:** EKS, Karpenter, KEDA, Cilium CNI, admission webhooks, Helm, sealed-secrets
+**IaC & CI/CD:** Terraform, Terragrunt, Ansible, GitLab CI, GitHub Actions, ArgoCD, Renovate, Cosign
+**Observability:** Prometheus, Grafana, Loki, Datadog, Sentry, Fluent Bit
+**Languages:** Python, TypeScript, Bash, SQL, HCL
+**AI:** Claude API, Claude Code, Model Context Protocol, Amazon Bedrock, agent orchestration
 
 ## Certifications
 
-- **AWS Solutions Architect – Professional**
-- **AWS DevOps Engineer – Professional**
-- **AWS Security – Specialty**
+- AWS Solutions Architect – Professional · AWS DevOps Engineer – Professional · AWS Security – Specialty
+- Anthropic Education (2026): Building with the Claude API, Claude with Amazon Bedrock, MCP (Intro + Advanced), Agent Skills, Subagents, Claude Code
 
-## Where to find me
+## Elsewhere
 
-- [LinkedIn](https://www.linkedin.com/in/brandon-handeland)
-- [handeland.org](https://www.handeland.org) — personal site
-- [Unbuffered Technology Solutions](https://www.unbuffered.net) — my consultancy
-- [GitLab](https://gitlab.com/brandon.handeland)
-- [Nighthawk OSS](https://gitlab.com/nighthawk-oss) — experimental and open-source projects
-- [PyPI](https://pypi.org/user/bhandeland/) — published Python packages
-- [CPAN](https://metacpan.org/author/BRANDON) — published Perl modules
-- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/user/19662995/) — browser extensions
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nighthawk-oss.nighthawk-blame) — Nighthawk Blame extension
+[LinkedIn](https://www.linkedin.com/in/brandon-handeland) · [handeland.org](https://www.handeland.org) · [GitLab](https://gitlab.com/brandon.handeland) · [PyPI](https://pypi.org/user/bhandeland/)
